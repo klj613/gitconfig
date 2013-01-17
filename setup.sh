@@ -1,3 +1,3 @@
 #!/bin/sh
 
-ln -s ~/.git/gitconfig ~/.gitconfig
+ln -s `pwd`/gitconfig ~/.gitconfig
