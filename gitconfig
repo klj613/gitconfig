@@ -1,10 +1,11 @@
 [user]
-	name = Kristian Lewis Jones
-	email = klj613@kristianlewisjones.com
+    name = Kristian Lewis Jones
+    email = klj613@kristianlewisjones.com
 [core]
-	editor = vim
+    editor = vim
+    excludesfile = ~/.gitignore
 [alias]
-	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)(%an <%ae>)%Creset' --abbrev-commit --date=relative
+    lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)(%an <%ae>)%Creset' --abbrev-commit --date=relative
 [color]
     ui = auto
 [color "diff"]
