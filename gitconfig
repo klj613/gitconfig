@@ -6,6 +6,7 @@
     excludesfile = ~/.gitignore
 [alias]
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)(%an <%ae>)%Creset' --abbrev-commit --date=relative
+    tlg = log --tags --simplify-by-decoration --pretty=format:'%ai %d'
 [color]
     ui = auto
 [color "diff"]
