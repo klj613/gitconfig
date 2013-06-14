@@ -7,6 +7,7 @@
 [alias]
     lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%Creset %C(blue)(%an <%ae>)%Creset' --abbrev-commit --date=relative
     tlg = log --tags --simplify-by-decoration --pretty=format:'%ai %d'
+    latest = for-each-ref --sort=-committerdate --format='%(committerdate:short) %(refname:short)'
 [color]
     ui = auto
 [color "diff"]
