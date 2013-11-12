@@ -1,4 +1,4 @@
 #!/bin/sh
 
 ln -s `pwd`/gitconfig ~/.gitconfig
-ln -s `pwd`/gitignroe ~/.gitignore
+ln -s `pwd`/gitignore ~/.gitignore
